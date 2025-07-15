@@ -4,7 +4,7 @@ import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Apple {
 
     void eat(){
@@ -12,7 +12,7 @@ public class Apple {
     }
     @PostConstruct
     void beforeAppleisCreated(){
-        System.out.println("using post constructy");
+        System.out.println("using post construct");
     }
     @PreDestroy
     void beforeDsetroy(){
